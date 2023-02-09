@@ -1,0 +1,11 @@
+@nilmod {
+	name: "Overworld -2";
+	description: "Port of Overworld 2 for 1.4.7";
+	authors: "SuperCoder79, Gegy";
+	version: "0.1.0";
+}
+
+entrypoints {
+	premain: "supercoder79.overworld_2.OW2PremainFlow";
+	hijack: "supercoder79.overworld_2.OW2UpsilonFlow";
+}
